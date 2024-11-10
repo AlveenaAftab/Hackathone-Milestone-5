@@ -1,0 +1,121 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #bf9393;
+    }
+    
+    form {
+    margin: auto;
+    background-color: #d8baba;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(130, 87, 87, 0.5);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    
+    h1 {
+    text-align: center;
+    color: #333;
+    }
+    
+    fieldset {
+    border: 2px solid #666;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d49a9a;
+    }
+    
+    legend {
+    font-weight: bold;
+    text-align: left;
+    color: #444;
+    }
+    
+    label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    }
+    
+    input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+    button {
+    display: block;
+    width: 100%;
+    background-color: #d08d8d;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    color: #000;
+    }
+    
+    #resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    background-color: #cb9898;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    outline: none;
+    }
+    
+    #resume-display h2 {
+    color: #333;
+    }
+    
+    /* Responsive styles */
+    
+    @media (max-width: 768px) {
+    form, #resume-display {
+    max-width: 90%;
+    padding: 15px;
+    }
+    button {
+    font-size: 16px;
+    padding: 8px;
+    }
+    fieldset {
+    padding: 18px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    form, #resume-display {
+    max-width: 95%;
+    padding: 10px;
+    }
+    button {
+    font-size: 14px;
+    padding: 6px;
+    }
+    input, textarea {
+    padding: 6px;
+    }
+    fieldset {
+    padding: 15px;
+    }
+    }
